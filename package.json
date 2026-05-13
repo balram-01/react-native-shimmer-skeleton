@@ -1,6 +1,6 @@
 {
   "name": "react-native-shimmer-skeleton",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Beautiful, performant skeleton loading for React Native — shimmer, pulse, presets, themes. Zero dependencies.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
