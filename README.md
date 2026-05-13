@@ -20,7 +20,11 @@
 <br />
 
 <!-- Replace with your actual GIF -->
-<img src="./assets/demo.gif" width="320" alt="Demo of react-native-skeleton-loading animations" />
+<h2 align="center">Demo</h2>
+
+<div align="center">
+  <video src="https://github.com/balram-01/react-native-shimmer-skeleton/raw/main/assets/demo.mp4" width="250" controls autoPlay loop muted></video>
+</div>
 
 <br /><br />
 
