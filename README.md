@@ -6,8 +6,8 @@
 
 <br />
 
-[![npm version](https://img.shields.io/npm/v/react-native-skeleton-loading?color=6C63FF&style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-native-skeleton-loading)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-skeleton-loading?color=10B981&style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-native-skeleton-loading)
+[![npm version](https://img.shields.io/npm/v/react-native-shimmer-skeleton?color=6C63FF&style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-native-shimmer-skeleton)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-shimmer-skeleton?color=10B981&style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-native-shimmer-skeleton)
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-Zero-brightgreen?style=for-the-badge)](#installation)
