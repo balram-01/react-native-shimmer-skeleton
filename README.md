@@ -2,7 +2,7 @@
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=120&section=header&text=react-native-skeleton-loading&fontSize=28&fontColor=ffffff&fontAlignY=38&desc=Beautiful%20%C2%B7%20Performant%20%C2%B7%20Zero%20Dependencies&descAlignY=60&descSize=14" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=120&section=header&text=react-native-shimmer-skeleton&fontSize=28&fontColor=ffffff&fontAlignY=38&desc=Beautiful%20%C2%B7%20Performant%20%C2%B7%20Zero%20Dependencies&descAlignY=60&descSize=14" width="100%" />
 
 <br />
 
@@ -36,7 +36,7 @@
 
 Most skeleton libraries make you install `react-native-linear-gradient`, add native linking, and write every placeholder from scratch. This library does none of that.
 
-| | **react-native-skeleton-loading** | Others |
+| | **react-native-shimmer-skeleton** | Others |
 |---|:---:|:---:|
 | Zero external dependencies | ✅ | ❌ Usually needs linear-gradient |
 | `useNativeDriver: true` always | ✅ | ⚠️ Often JS thread |
@@ -54,10 +54,10 @@ Most skeleton libraries make you install `react-native-linear-gradient`, add nat
 
 ```bash
 # npm
-npm install react-native-skeleton-loading
+npm install react-native-shimmer-skeleton
 
 # yarn
-yarn add react-native-skeleton-loading
+yarn add react-native-shimmer-skeleton
 ```
 
 > **No additional setup required.** No linking. No Pods. No Gradle changes.
@@ -68,7 +68,7 @@ yarn add react-native-skeleton-loading
 ## ⚡ Quick Start
 
 ```tsx
-import { Skeleton } from 'react-native-skeleton-loading';
+import { Skeleton } from 'react-native-shimmer-skeleton';
 
 export function ArticleCard() {
   return (
@@ -125,7 +125,7 @@ import {
   ListItemSkeleton,
   ProfileSkeleton,
   ArticleSkeleton,
-} from 'react-native-skeleton-loading';
+} from 'react-native-shimmer-skeleton';
 
 // Image card with title, subtitle, and badge
 <CardSkeleton />
@@ -145,7 +145,7 @@ import {
 Wrap your list in `SkeletonGroup` and get staggered shimmer and a smooth fade-in when content loads — for free.
 
 ```tsx
-import { SkeletonGroup, ListItemSkeleton } from 'react-native-skeleton-loading';
+import { SkeletonGroup, ListItemSkeleton } from 'react-native-shimmer-skeleton';
 
 function Feed({ isLoading, posts }) {
   return (
@@ -187,7 +187,7 @@ When `loading` flips to `false`, your real content fades in automatically.
 ### Theme system
 
 ```tsx
-import { SkeletonThemeProvider } from 'react-native-skeleton-loading';
+import { SkeletonThemeProvider } from 'react-native-shimmer-skeleton';
 
 // Built-in themes
 <SkeletonThemeProvider theme="dark">
@@ -204,7 +204,7 @@ import { SkeletonThemeProvider } from 'react-native-skeleton-loading';
 
 ```tsx
 import { useColorScheme } from 'react-native';
-import { SkeletonThemeProvider } from 'react-native-skeleton-loading';
+import { SkeletonThemeProvider } from 'react-native-shimmer-skeleton';
 
 function App() {
   const colorScheme = useColorScheme();
@@ -223,7 +223,7 @@ function App() {
 Need a skeleton that doesn't fit any preset? Drive your own `Animated.View` with the raw hook:
 
 ```tsx
-import { useSkeletonAnimation } from 'react-native-skeleton-loading';
+import { useSkeletonAnimation } from 'react-native-shimmer-skeleton';
 
 function DiamondSkeleton() {
   const { pulseStyle, shimmerStyle } = useSkeletonAnimation({ speed: 900 });
@@ -353,7 +353,7 @@ useSkeletonAnimation(options?: {
 ### Built-in themes
 
 ```ts
-import { themes } from 'react-native-skeleton-loading';
+import { themes } from 'react-native-shimmer-skeleton';
 
 themes.light   // #E2E8F0 / #F8FAFC  — default, works on white
 themes.dark    // #2A2A2A / #3D3D3D  — dark surfaces
@@ -404,8 +404,8 @@ Every animation runs on the **UI thread** — never the JavaScript thread.
 Contributions, bug reports, and feature requests are welcome!
 
 ```bash
-git clone https://github.com/balram-01/react-native-skeleton-loading.git
-cd react-native-skeleton-loading
+git clone https://github.com/balram-01/react-native-shimmer-skeleton.git
+cd react-native-shimmer-skeleton
 yarn install
 
 # Run the example app

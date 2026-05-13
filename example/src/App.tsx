@@ -19,7 +19,7 @@ import {
   SkeletonGroup,
   SkeletonThemeProvider,
   useSkeletonAnimation,
-} from 'react-native-skeleton-loading';
+} from 'react-native-shimmer-skeleton';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -508,7 +508,7 @@ function AppContent() {
 
         <View style={styles.footer}>
           <Text style={styles.footerEmoji}>✨</Text>
-          <Text style={styles.footerText}>react-native-skeleton-loading</Text>
+          <Text style={styles.footerText}>react-native-shimmer-skeleton</Text>
           <Text style={styles.footerSub}>Made with ❤️ · MIT License</Text>
         </View>
       </ScrollView>

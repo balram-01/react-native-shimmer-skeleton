@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-skeleton-loading": ["./src/index"]
+      "react-native-shimmer-skeleton": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
